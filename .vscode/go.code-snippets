@@ -1,0 +1,11 @@
+{
+    "fast default boilerplate" : {
+        "prefix": "ginit",
+        "body": [
+            "package main\n",
+            "import \"fmt\" \n",
+            "func main() {\n",
+            "}"
+          ]
+    }
+}
