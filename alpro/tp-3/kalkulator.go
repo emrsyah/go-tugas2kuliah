@@ -7,7 +7,7 @@ func main() {
 	opt = 0
 	for opt != 4 {
 		menu()
-		fmt.Print("Pilih (1/2/3/4)? ")
+		fmt.Print("Pilih (1/2/3/4)?")
 		fmt.Scan(&opt)
 		if opt == 1 {
 			hitungJumlah()
@@ -23,7 +23,8 @@ func main() {
 
 func menu() {
 	fmt.Println("-----------------------")
-	fmt.Printf("%15s\n", "M E N U")
+	// fmt.Printf("%15s\n", "M E N U")
+	fmt.Println("        M E N U        ")
 	fmt.Println("-----------------------")
 	fmt.Println("1. Hitung Penjumlahan")
 	fmt.Println("2. Hitung Perkalian")
